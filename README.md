@@ -1,14 +1,32 @@
 # GraphQL_Assignment
+### Prerequisites
+- Python 3.8 or higher
+- Django 3.2 or higher
+- GraphQL
 
-"# Blog_API_Project" 
-1 st quest
+### Installation
+
+1. Clone the repository.
+https://github.com/kashinath12345/GraphQL_Assignment.git 
+
+2. Install the required dependencies.
+Pip install -r requirements.txt
+
+## Deployment
+python manage.py runserver 
+
+Use the Endpoint :http://localhost:8000/graphql/
+
+# Use the following mutations to execute all the given questions in assignment.
+
+1.question
 
 mutation {
   createPost(
     title: "Example Title",
     description: "Example Description",
     publishDate: "2023-05-20",
-    author: "John Doe"
+    author: "Kashinath Malwade"
   ) {
     post {
       id
@@ -23,7 +41,7 @@ mutation {
 ###################################################
 
 
-2 question .
+2.question
 
 
 mutation {
@@ -48,7 +66,7 @@ mutation {
 
 ################################################
 
-3 . ques
+3.question
 
 mutation {
   createComment(
@@ -85,7 +103,7 @@ mutation {
 
 ######################################
 
-5 .question 
+5.question 
 
 
 query {
@@ -101,7 +119,7 @@ query {
 
 #######################################
 
-6.questions 
+6.question
 
 query {
   post(id: "1") {
